@@ -1,0 +1,9 @@
+[submodule "submodules/open-darts"]
+	path = submodules/open-darts
+	url = https://gitlab.com/open-darts/open-darts
+[submodule "submodules/darts-models"]
+	path = submodules/darts-models
+	url = https://gitlab.com/open-darts/darts-models
+[submodule "submodules/darts-flash"]
+	path = submodules/darts-flash
+	url = https://gitlab.com/open-darts/darts-flash

@@ -1,0 +1,25 @@
+diff --git a/engines/src/gpu_tools.h b/engines/src/gpu_tools.h
+index ced88acd2..ce4cabe08 100644
+--- a/engines/src/gpu_tools.h
++++ b/engines/src/gpu_tools.h
+@@ -1,6 +1,7 @@
+ #ifndef E47AA730_C763_46D6_8FE1_579846DFE543
+ #define E47AA730_C763_46D6_8FE1_579846DFE543
+ 
++#include <iostream>
+ #include <vector>
+ #include <string>
+ #include <iomanip>
+diff --git a/pyproject.toml b/pyproject.toml
+index 06c304fae..f4af8fd54 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -23,7 +23,7 @@ requires-python = ">=3.10"
+ # pandas, whose major versions cannot read the reference pickles)
+ # live in .cicd/constraints.txt, not here, so users can install open-darts next to other scipy and pandas versions.
+ dependencies = ['numba', 'scipy', 'pandas', 'meshio', 'gmsh<=4.13', 'iapws', 'openpyxl', 'pyevtk', 'matplotlib',
+-    'shapely', 'igraph', 'sympy', 'opmcpg', 'xarray', 'netCDF4==1.7.2', 'h5py==3.14.0', 'open-darts-flash==0.14.0', 'phreeqpy']
++    'shapely', 'igraph', 'sympy', 'opmcpg', 'xarray', 'netCDF4==1.7.2', 'h5py==3.14.0', 'open-darts-flash>=0.14.0', 'phreeqpy']
+ 
+ license = "GPL-3.0-or-later"
+ license-files = ["LICENSE", "LICENSE.md"]
